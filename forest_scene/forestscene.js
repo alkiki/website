@@ -45,5 +45,5 @@ window.addEventListener('scroll', () => {
 })
 
 document.getElementById("goback").addEventListener("click", function () {
-    window.location.href = "landing-page.html";
+    window.location.href = "website/index.html";
   });
