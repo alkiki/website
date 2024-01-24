@@ -1,0 +1,60 @@
+.header{
+    position: relative;
+}
+
+.header button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 40px;
+    background-color: whitesmoke;
+   border: none;
+   border-radius: 10px;
+   font-family: 'Silkscreen', sans-serif;
+}
+
+.header button:hover{
+    background-color: lightgoldenrodyellow;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+.text{
+    background-color: white;
+    display: flex;
+    margin-right: 120px;
+    margin-left: 120px;
+    border-radius: 10px;
+
+}
+
+.text p{
+    margin: 20px;
+}
+
+body{
+   background-image: url('surale.jpg'); 
+   background-repeat: no-repeat;
+   background-attachment: fixed;  
+   background-size: cover;
+   font-family: 'Silkscreen', sans-serif;
+}
+iframe{
+    width: 600px;
+    height: 400px;
+    display: flex;
+   margin-top: 40px;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+@media (max-width:700px){
+    iframe{
+        width: 80%;
+        height: 400px;
+    }
+}

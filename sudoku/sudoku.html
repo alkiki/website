@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sudoku.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Sudoku for 2 players</h1>
+      <button>Go back</button>
+    </div>
+    <div class="container">
+      <div id="one">
+        <p>
+          The idea behind the game was to create a sudoku grid that 2 players
+          can solve at the same time. The rules are pretty simple: before the
+          game starts, players can choose the level of the initial sudoku
+          grid. When the game starts, each player has a 1-minute limit to fill
+          in the grid. If the value is correct, then it stays on the grid and
+          the score of the players goes high by 1. If the value is incorrect,
+          the grid does not change, and the player’s score goes down. The game
+          ends when the grid is completed. The player that has the highest
+          score, wins. This game was written in Python.
+        </p>
+      </div>
+      <div id="three">
+        <p>Programming Language: Python + Pygame</p>
+        <p>Packages that are used in the code</p>
+        <ol>
+          <li>Dokusan, Dokusan.boards</li>
+          <li>Pygame</li>
+          <li>Copy</li>
+        </ol>
+      </div>
+      <div id="two">
+        <img
+          src="ezgif-2-6851a69f70.gif"
+          id="demovideo"
+          alt=""
+          style="width: 400px; height: 400px"
+        />
+      </div>
+    </div>
+  </body>
+  <script src="sudoku.js"></script>
+  <script src="https://unpkg.com/floating.js"></script>
+  <script>
+    floating({
+      content: "0️⃣",
+      number: 1,
+      duration: 9,
+      repeat: 1,
+      direction: "reverse",
+    });
+    floating({
+      content: "1️⃣",
+      number: 1,
+      duration: 6,
+      repeat: 1,
+      direction: "reverse",
+    });
+    floating({
+      content: "2️⃣",
+      number: 1,
+      duration: 10,
+      repeat: 1,
+      direction: "reverse",
+    });
+    floating({
+      content: "3️⃣",
+      number: 1,
+      duration: 11,
+      repeat: 1,
+      direction: "reverse",
+    });
+    floating({
+      content: "4️⃣",
+      number: 1,
+      duration: 5,
+      repeat: 1,
+      direction: "reverse",
+    });
+    floating({
+      content: "5️⃣",
+      number: 1,
+      duration: 7,
+      repeat: 1,
+      direction: "reverse",
+    });
+  </script>
+</html>

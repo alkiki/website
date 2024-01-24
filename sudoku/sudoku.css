@@ -1,0 +1,67 @@
+body{
+  font-family: 'Silkscreen', sans-serif;
+}
+h1{
+  text-align: center;
+  margin: 0;
+}
+.header{
+  position: relative;
+}
+button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 40px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Silkscreen', sans-serif;
+}
+
+button:hover{
+  background-color: lightgoldenrodyellow;
+}
+
+#two{
+  margin-top: 390px;
+
+}
+
+#three{
+  margin-top: 270px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.container > div:nth-child(odd) {
+  border-right: 2px solid #ff0000;
+}
+.container > div:nth-child(even) {
+  border-right: 2px solid #ff0000; 
+}
+
+.container > div:last-child {
+  border-right: none;
+}
+
+#one, #two, #three {
+  height: 250px;
+  text-align: center;
+}
+
+
+@media (max-width: 1000px){
+  .container{
+    grid-template-columns: 1fr;
+  }
+  #one, #two, #three{
+    height: 200px;
+    margin-top: 20px;
+  }
+} 

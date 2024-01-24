@@ -1,0 +1,233 @@
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+h1 {
+    font-size: 6rem;
+    margin-top: 30vh;
+    text-align: center;
+    color: black;
+}
+
+.folder{
+    width: 80px;
+    height: 80px;
+}
+
+.text-file{
+    width: 60px;
+    height: 75px;
+}
+
+#watch{
+    text-align: center;
+}
+
+#contact-form{
+    border-radius: 10px;
+    background: white;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    visibility: hidden;
+    z-index: 1;
+}
+
+#backsign{
+    width: 15px;
+    height: 15px;
+    float: right;
+
+}
+
+p:hover{
+    color: blue;
+}
+
+.header h3{
+    position: relative;
+}
+
+.header h3::after{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    content: 'x';
+}
+
+.header img {
+    float: right
+}
+
+#aboutme_page{
+    border-radius: 5px;
+    background: white;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    justify-content: center;
+    top: 25%;
+    left: 40%;
+    padding: 10px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.figure1{
+    display: inline-block;
+    position: absolute; 
+    top: 60px;
+    right: 200px;
+}
+
+.figure2{
+    display: inline-block;
+    position: absolute; 
+    top: 230px;
+    left: 180px;
+}
+.figure3{
+    display: inline-block;
+    position: absolute;
+    right: 380px;
+    top: 450px;
+}
+
+.figure4{
+    display: inline-block;
+    position: absolute;
+    right: 350px;
+    top: 150px;
+}
+
+.aboutme{
+    width: 65px;
+    height: 80px;
+}
+
+figcaption{
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+
+@media only screen and (max-width: 800px){
+    .figure1{
+        position: absolute;
+        top: 100px;
+        right: 30px;
+    }
+    .folder{
+        width:190px;
+        height: 190px;
+    }
+    .aboutme{
+        width: 140px;
+        height: 160px;
+    }
+    .figure2{
+        position: absolute;
+        top: 100px;
+        left: 30px;
+
+    }
+    .figure3{
+        position: absolute;
+        top:400px;
+        left: 30px;
+    }
+    .figure4{
+        position: absolute;
+        top:400px;
+        right: 30px;
+    }
+    figcaption{
+        color: black;
+    }
+}
+@media only screen and (max-width: 480px){
+    .folder{
+        width:150px;
+        height: 150px;
+    }
+    .aboutme{
+        width: 120px;
+        height: 140px;
+    }
+
+    .figure1{
+        position: absolute;
+        top: 100px;
+        right: 30px;
+    }
+
+    .figure2{
+        position: absolute;
+        top: 260px;
+        right: 30px;
+
+    }
+    .figure3{
+        position: absolute;
+        top:420px;
+        right: 30px;
+    }
+    .figure4{
+        position: absolute;
+        top:590px;
+        right: 30px;
+    }
+
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a{
+    margin-right: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-item p{
+    margin-right: 10px;
+    margin-top: 9px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 992px) { 
+    #navbarText {
+      text-align: center;
+    }
+    #navbarText .navbar-nav {
+      display: inline-block;
+      float: none;
+    }
+    #navbarText .nav-item {
+      float: none;
+    }
+
+    #navbarText .nav-item p {
+        display: none;
+      }
+  }
