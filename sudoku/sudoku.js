@@ -1,4 +1,4 @@
 document.querySelector('button').addEventListener("click", function() {
-    window.location.href = "landing-page.html";
+    window.location.href = "index.html";
   });
 
