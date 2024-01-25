@@ -14,6 +14,8 @@
   border: none;
   border-radius: 10px;
   font-family: 'VT323', monospace;
+  font-size: 20px;
+  z-index: 100000;
 }
 
 #goback:hover{
