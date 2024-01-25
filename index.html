@@ -2,86 +2,134 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="app.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="TT2020Base-Regular.woff2" />
+    <title>Vite App</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-none">
-      <!-- <p class="navbar-brand">Alina's portfolio</p> -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarText"
-        aria-controls="#navbarText"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a href="#" class="navbar-brand">Alina's portfolio</a>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="https://www.instagram.com/alinayagaf/"
-              >Instagram</a
-            >
-          </li>
-          <li class="nav-item active">
-            <a
-              class="nav-link"
-              href="https://www.linkedin.com/in/alina-yagafarova-77279a236/"
-              >LinkedIn</a
-            >
-          </li>
-          <li class="nav-item"><p id="watch"></p></li>
-        </ul>
+    <div id="app"></div>
+    <section id="pictures">
+        <h1>Alina's moodboard</h1>
+      <p id="intro">This is a page about me. The first section is a draggable moodboard. Douple tap on the pictures to see more!</p>
+      <img src="film_photos/film_photo1.jpg" alt="" id="pic1" style="cursor: grab;" />
+      <img src="film_photos/film_photo2.jpg" alt="" id="pic2" style="cursor: grab;"/>
+      <img src="film_photos/film_photo4.jpg" alt="" id="pic3" style="cursor: grab;"/>
+      <img src="film_photos/film_photo3.jpg" alt="" id="pic4" style="cursor: grab;"/>
+      <img src="film_photos/film_photo5.jpg" alt="" id="pic5" style="cursor: grab;"/>
+      <img src="film_photos/film_photo6.jpg" alt="" id="pic6" style="cursor: grab;"/>
+      <img
+        src="film_photos/goodfellas.jpeg"
+        alt=""
+        class="film_poster"
+        id="pic7"
+        style="cursor: grab;"
+      />
+      <img src="abbas.jpg" class="film_poster" alt="" id="pic8"  style="cursor: grab;"/>
+      <img src="swan.webp" class="album_cover" alt="" id="pic9"  style="cursor: grab;"/>
+      <img src="yamakasi.jpeg" class="album_cover" alt="" id="pic10" style="cursor: grab;" />
+    
+    </section>
+
+      <h2>Film photos!</h2>
+      <p id="intro_filmph">Online gallery of my film photos. Pictures were taken on Olympus Af-1 TWIN camera.</p>
+      <section id="film_photos">
+      <figure>
+        <img src="film_photos/film_photo1.jpg" alt="" />
+        <figcaption>Villa Lena, Italy 2019</figcaption>
+      </figure>
+      <figure>
+        <img src="film_photos/film_photo2.jpg" alt="" />
+        <figcaption>Italy 2019</figcaption>
+      </figure>
+      <figure>
+        <img src="film_photos/film_photo3.jpg" alt="" />
+        <figcaption>Italy 2019</figcaption>
+      </figure>
+      <figure>
+        <img src="film_photos/film_photo4.jpg" alt="" />
+        <figcaption>New York, 2019</figcaption>
+      </figure>
+      <figure>
+        <img src="film_photos/film_photo5.jpg" alt="" />
+        <figcaption>New York, 2019</figcaption>
+      </figure>
+      <figure>
+        <img src="film_photos/film_photo6.jpg" alt="" />
+        <figcaption>New York, 2019</figcaption>
+      </figure>
+
+      <button id="buttonScrollToTop">
+        Go up
+     </button>
+    </section>
+    <section id="films">
+      <h2>Films!</h2>
+      <p style="margin-left: 40px; margin-right: 40px;">
+        I really love movies and go to the cinema all the time. It is my type of
+        therapy. Doesn't matter if it's a new one, an old one, American,
+        Japanese or a black and white film. It is always a celebration for me.
+        Since I am a very active Letterboxd enjoyer, I have made my top 5 films
+        that I can rewatch all the time. (Last year I have watched taxi driver 5
+        times and the new Spider Man movie 4 times in one month)
+      </p>
+      <div id="topFilms">
+        <div class="film">
+          <div>
+            <img src="film_photos/goodfellas.jpeg" alt="" />
+          </div>
+          <div>
+            <img src="courier.webp" alt="" />
+          </div>
+           <div>
+            <img src="taxi_driver.webp" alt="" />
+          </div> 
+          <div>
+            <img src="closeness.jpg" alt="" />
+          </div>
+          <div>
+            <img src="abbas.jpg" alt="" />
+          </div>
+
+        </div>
+ 
       </div>
-    </nav>
-    <video src="IMG_9837.MOV" id="background-video" autoplay loop muted></video>
+      <div class="section">
+        <h4>My diary of the films I've logged in to Letterboxd since November 2023</h3>
+          <p style="text-align: center;">(Infromation was gathered from the Letterboxd website)</p>
+        <dl id="diary"></dl>
+      </div>
+    </section>
 
-    <div class="container-fluid">
-      <a href="sudoku/sudoku.html">
-        <figure class="figure1">
-          <img class="folder" src="folder.png" alt="" />
-          <figcaption>sudoku for 2</figcaption>
-        </figure>
-      </a>
+    <section id="music">
+      <h1>My favorite albums of all times </h1>
+      <div class="album-covers">
+        <div class="vinyl">
+          <p style="text-align: center;">Blood Orange</p>
+          <img src="vinyl_cover.jpeg" alt="" class="record" id="album1">
+          <img src="swan.webp" alt="" class="album">
+          <p id="description">I first heard this album when I was in London in 2019. I was walking around the City and listening to "Hope"</p>
+        </div>
+        <div class="vinyl">
+          <p style="text-align: center;">Yamakasi</p>
+          <img src="vinyl_cover.jpeg" alt="" class="record">
+          <img src="yamakasi.jpeg" alt="" class="album">
+        </div>
+        <div class="vinyl">
+          <p style="text-align: center;">Kind of blue</p>
+          <img src="vinyl_cover.jpeg" alt="" class="record">
+          <img src="miles.png" alt="" class="album">
+        </div>
+      </div>
+      <div id="song_rec">
+        <p style="margin-left: 40px; margin-right: 40px;">Since I am listening to all genres of music, I added all my liked songs on Spotify to a data storage so you can radnomly get a song recomendation from me!</p>
+        <button id="songrec">Get a song recomendation from me!</button>
+        <div id="songrecp" onload="getRandomMusic()">
+        </div>
+      </div>
 
-      <a href="forest_scene/forestscene.html">
-        <figure class="figure2">
-          <img class="folder" src="folder.png" alt="" />
-          <figcaption>forest scene</figcaption>
-        </figure>
-      </a>
-      <a href="https://luxuriant-floor.surge.sh/">
-        <figure class="figure4">
-          <img class="aboutme" src="about_me.png" alt="" />
-          <figcaption>About Me</figcaption>
-        </figure>
-      </a>
-
-      <a href="surale/surale.html">
-        <figure class="figure3">
-          <img class="folder" src="folder.png" alt="" />
-          <figcaption>surale</figcaption>
-        </figure>
-      </a>
-    </div>
+    </section>
+    <script type="module" src="/main.js"></script>
   </body>
-  <script src="app.js"></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"
-  ></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>
