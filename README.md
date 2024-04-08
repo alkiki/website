@@ -17,7 +17,8 @@ There are currently 3 folders and about_me page:
 - About me page was made using _Vanilla JavaScript_ with added packages (e.g. draggable)
 
 These are my first **sketches**:
-![image](https://git.arts.ac.uk/storage/user/685/files/a280f49c-d5db-4f08-880f-6c72861c0fd6)
+![sketch](https://github.com/alkiki/website/assets/97913319/4bcacd0d-1ed0-430a-abe3-d4255fc7ba37)
+
 ![image](https://git.arts.ac.uk/storage/user/685/files/e6149268-1457-40ca-9f35-1b94d38748d6)
 
 
