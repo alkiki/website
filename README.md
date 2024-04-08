@@ -1,16 +1,4 @@
-# Personal website
-Website is available [here]()
- _What is your website about? is it directed to a particular field or industry?_
- 
-  My website is about my portfolio and my coding works that I have already done as well as my hobbies and interests.
-  
- _Audience. Who are your visitors and what information will they be looking for?_
- 
-  My audience are potential artists who want to collaborate or potential companies that would be interested in working with me
-    
-_What existing websites perform a similar function?_
-
-  My first inspiration was this [website](https://930296.cargo.site/). I was browsing the internet for some inspiration and I really liked this website as it represents the desktop of the computer. I found it interesting for the folders to represent my projects that I had already done. The main page has a navigation bar made with _bootstrap_, folders and social media links. 
+My first inspiration was this [website](https://930296.cargo.site/). I was browsing the internet for some inspiration and I really liked this website as it represents the desktop of the computer. I found it interesting for the folders to represent my projects that I had already done. The main page has a navigation bar made with _bootstrap_, folders and social media links. 
 There are currently 3 folders and about_me page:
 - The forest scene website is made with _parallax effect_ and is about my processing project
 - The surale folder is about a project I made in p5js last year
