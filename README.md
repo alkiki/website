@@ -19,8 +19,6 @@ There are currently 3 folders and about_me page:
 These are my first **sketches**:
 ![sketch](https://github.com/alkiki/website/assets/97913319/4bcacd0d-1ed0-430a-abe3-d4255fc7ba37)
 
-![image](https://git.arts.ac.uk/storage/user/685/files/e6149268-1457-40ca-9f35-1b94d38748d6)
-
 
 My intial [idea](https://rp.mockplus.com/rps/5iye-H1B1/E4k-K317OX?) of the folder layout. Each folder represents my project. 
 ***
